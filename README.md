@@ -53,17 +53,18 @@ The program will output stylized image files into your local "Documents" folder.
 
 *The output image resolution is defined by the resolution of input images*
 
-**To stylize a single image**
+####To stylize a single image
 Drag the image file into your Xcode project into the "EvaluateCoreML" Folder. 
 Then change the below code (Line 103) to the name of your file:
 ```
 var image = NSImage(imageLiteralResourceName: "portrait3.jpg")
 ```
 
-**To stylize a folder of images**
+####To stylize a folder of images
 Open the Xcode project and run the program
 Check the "Multiple Images" box
 Paste the system link to the folder containing your images into "Folder File Path URL"
+
 *Note: To get the URL Path, in a Finder window go "View" > "Show Path Bar" then go to your images folder, right click onto the folder in the Path Bar at the bottom and select "Copy ___ as Pathname"*
 
 ## To Do
