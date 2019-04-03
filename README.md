@@ -7,10 +7,10 @@ This repository lets you:
 * Save the stylized images in the same format and resolution as input image
 
 ## Requirements
-Python 3.6.5
-Turi Create (latest)
-Xcode (latest)
-Mac Computer
+* Python 3.6.5
+* Turi Create (latest)
+* Xcode (latest)
+* Mac Computer
 
 ## Installation
 Use the command line to install requirements 
